@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div ng-repeat="song in songs" class="list-group">
+            <a ng-href="{{song.url}}" class="list-group-item">{{song.title}}</a>
+            <audio controls ng-src="{{song.url}}"></audio>
+        </div>
+    </div>
+</div>
