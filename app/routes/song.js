@@ -51,7 +51,7 @@ router.route('/')
 
                 function createSong(albumId) {
                     const song = new Song({
-                        title: tags.title,
+                        title: originalname,
                         url: '/' + originalname,
                         albumId: albumId
                     });
