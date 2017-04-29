@@ -4,8 +4,8 @@
 
 	// .constant('ALBUM_API', 'http://localhost:3000/api/albums')
 	// .constant('SONG_API', 'http://localhost:3000/api/songs')
-	.constant('ALBUM_API', '/api/albums')
-	.constant('SONG_API', '/api/songs')
+	.constant('ALBUM_API', 'http://139.59.74.153:3000/api/albums')
+	.constant('SONG_API', 'http://139.59.74.153:3000/api/songs')
 
 	.config(['$routeProvider', config]);
 
